@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
  cors({
    credentials: true,
-   origin: "http://localhost:3000",
+   origin: "https://a6--sage-elf-5352f6.netlify.app",
  })
 );
 TuitsController(app);
